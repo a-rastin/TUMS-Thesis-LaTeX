@@ -17,3 +17,27 @@
 {\Titr\fontsize{14}{18}\selectfont\UniversityFA \\}
 {\Titr\fontsize{14}{18}\selectfont\FacultyFA \\}
 {\Titr\fontsize{14}{18}\selectfont پایان‌نامه برای دریافت درجه \DegreeFA \\}
+
+\vspace{-0.5em} %%%%%%%%%%%%%%%%
+
+{\Titr\fontsize{16}{20}\selectfont عنوان: \\}
+{\Titr\fontsize{16}{20}\selectfont\TitleFA \\}
+
+\vspace{-0.5em} %%%%%%%%%%%%%%%%
+
+{\Titr\fontsize{14}{18}\selectfont نگارنده: \\}
+{\Titr\fontsize{14}{18}\selectfont\StudentNameFA \\}
+
+\vspace{-0.5em} %%%%%%%%%%%%%%%%
+
+{\Titr\fontsize{12}{16}\selectfont استاد راهنما \\}
+{\Titr\fontsize{12}{16}\selectfont\SupervisorOneFA \\}
+
+\vspace{-0.5em} %%%%%%%%%%%%%%%%
+
+{\Titr\fontsize{12}{16}\selectfont\YearFA \\}
+{\Titr\fontsize{12}{16}\selectfont شماره پایان‌نامه: \ThesisNumber \\}
+
+\vspace*{3cm}
+
+
