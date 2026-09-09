@@ -12,9 +12,9 @@
 
 \documentclass[
   a4paper,
-  14pt,          % متن فارسی ۱۴ (B Nazanin)
-  twoside,       % چاپ دورو
-  openright      % شروع فصل از صفحه فرد
+  14pt,           
+  twoside,       
+  openright      
 ]{extbook}
 
 \input{config}
@@ -24,8 +24,6 @@
 %==============================================================================
 % بخش‌های آغازین (Front Matter)
 %==============================================================================
-
-\frontmatter
 
 \input{frontmatter/ext-title-fa}
 
@@ -41,10 +39,20 @@
 % متن اصلی (Main Matter)
 %==============================================================================
 
+\input{chapters/ch01-introduction}
+
+\input{chapters/ch02-literature}
+
+\input{chapters/ch03-methods}
+
+\input{chapters/ch04-results}
+
+\input{chapters/ch05-discussion}
+
 %==============================================================================
 % بخش‌های پایانی انگلیسی (Back Matter)
 %==============================================================================
 
-\backmatter
+
 
 \end{document}
