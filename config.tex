@@ -118,7 +118,20 @@ Path=fonts/,
 \newcommand{\KeywordsFA}{کلیدواژه‌ها}
 \newcommand{\KeywordsEN}{Keywords}
 
+%==============================================================================
+% Chapter title style
+%==============================================================================
 
+\makeatletter
+\titleformat{\chapter}[display]
+    {\centering\Titr}
+    {\fontsize{22pt}{26pt}\selectfont فصل \tartibi{chapter}}
+    {9em}
+    {\fontsize{26pt}{30pt}\selectfont}
+    [\clearpage]
+\makeatother
+
+\titlespacing*{\chapter}{0pt}{5cm}{2cm}
 
 
 
