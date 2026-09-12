@@ -71,7 +71,14 @@
 
 \input{mainmatter/ch05-discussion}
 
-\printbibliography[title={فهرست منابع و ماخذ}]
+\chapter*{فهرست منابع و مأخذ}
+\addcontentsline{toc}{chapter}{فهرست منابع و مأخذ}
+\begin{latin}
+	\small
+	\begin{sloppypar}
+		\printbibliography[heading=none]
+	\end{sloppypar}
+\end{latin}
 
 \input{mainmatter/appendices}
 
