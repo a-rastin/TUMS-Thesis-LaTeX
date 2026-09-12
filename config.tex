@@ -114,9 +114,37 @@ Path=fonts/,
 %==============================================================================
 
 \setstretch{1.5}
+
 \renewcommand{\thesection}{\thechapter-\arabic{section}.}
 \renewcommand{\thesubsection}{\thesection-\arabic{subsection}.}
 \renewcommand{\thesubsubsection}{\thesubsection-\arabic{subsubsection}.}
+
+\let\oldcite\cite
+\renewcommand{\cite}[1]{%
+  \renewcommand{\bibopenbracket}{]}%
+  \renewcommand{\bibclosebracket}{[}%
+  \LRE{\oldcite{#1}}%
+  \renewcommand{\bibopenbracket}{[}%
+  \renewcommand{\bibclosebracket}{]}%
+}
+
+\let\oldparencite\parencite
+\renewcommand{\parencite}[1]{%
+  \renewcommand{\bibopenbracket}{]}%
+  \renewcommand{\bibclosebracket}{[}%
+  \LRE{\oldparencite{#1}}%
+  \renewcommand{\bibopenbracket}{[}%
+  \renewcommand{\bibclosebracket}{]}%
+}
+
+\let\oldtextcite\textcite
+\renewcommand{\textcite}[1]{%
+  \renewcommand{\bibopenbracket}{]}%
+  \renewcommand{\bibclosebracket}{[}%
+  \LRE{\oldtextcite{#1}}%
+  \renewcommand{\bibopenbracket}{[}%
+  \renewcommand{\bibclosebracket}{]}%
+}
 
 %==============================================================================
 % Commands
